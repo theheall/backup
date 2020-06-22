@@ -15,7 +15,7 @@ config['folders']['data'] = input("Data folder: ")
 config['folders']['temp'] = input("Temp folder: ")
 
 config['logfile'] = input("Log file: ")
-config['hours'] = int(input("Every how many hours do backups: "))
+config['hours'] = float(input("Every how many hours do backups: "))
 
 
 open('src/config.yml', 'w').write(dump(config, Dumper=Dumper))
