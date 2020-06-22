@@ -1,0 +1,12 @@
+panel:
+  token: <PANEL_API_KEY with SERVER READ perm>
+  url: <http(s)://panel.server.tld>
+cloud:
+  endpoint: <http(s)://cloud.server.tld/remote.php/dav/files/<user>/<path_to_folder>/>
+  pass: <NEXTCLOUD_PASS>
+  user: <NEXTCLOUD_USER>
+folders:
+  data: /srv/daemon-data/
+  temp: /tmp/
+hours: 1
+logfile: /var/log/backup.log
