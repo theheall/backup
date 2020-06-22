@@ -10,4 +10,4 @@ cp backup.service /lib/systemd/system/
 
 systemctl enable --now backup
 
-rm -r ../backup-v1.0.0/
+rm -r ../backup-v0.1.0/
