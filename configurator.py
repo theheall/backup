@@ -9,6 +9,7 @@ cloud_url = input("Nextcloud url: ")
 cloud_user = input("Nextcloud user: ")
 cloud_path = input("Nextcloud path to backup folder: ")
 config['cloud']['endpoint'] = cloud_url + "/remote.php/dav/files/" + cloud_user + "/" + cloud_path
+config['cloud']['user'] = cloud_user
 config['cloud']['pass'] = input("Nextcloud pass: ")
 
 config['folders']['data'] = input("Data folder: ")
