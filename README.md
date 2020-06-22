@@ -20,7 +20,7 @@ wget https://github.com/TheHeall/backup/releases/download/v0.1.0/backup-v0.1.0.z
 unzip backup-v0.1.0.zip
 
 # Start the installer and follow instruction
-cd backup-v1.0.0/
+cd backup-v0.1.0/
 sh ./install.sh
 ```
 
